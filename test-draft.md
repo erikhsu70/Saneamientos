@@ -1,32 +1,26 @@
 ---
-title: "Título aquí — máximo 60 caracteres"
-slug: slug-aqui
+title: "Test — Artículo de Prueba Saneamientos"
+slug: test-saneamientos-draft
 lang: es
-categories:
-  - Nombre categoría
-tags:
-  - tag1
-  - tag2
-excerpt: "Meta descripción aquí. 150-160 caracteres."
-featured_image: images/cover.jpg
+excerpt: "Artículo de prueba con banner CTA entre secciones, imagen de portada e índice de contenidos."
 ---
 
-<!-- IMAGEN DE PORTADA -->
-![Descripción alt de la imagen de portada](images/cover.jpg)
+![Operario de Saneamientos Mungia realizando inspección con cámara robotizada](images/PENDIENTE.jpg)
 
-<!-- TABLA DE CONTENIDOS (auto-generada desde los H2 del artículo) -->
 <nav style="background:#f8f9fa;border-left:4px solid #1a56db;padding:18px 24px;border-radius:0 8px 8px 0;margin-bottom:32px;font-size:15px;line-height:1.8">
 <strong style="display:block;margin-bottom:8px;font-size:16px;color:#1a1a2e">Índice de contenidos</strong>
-<a href="#seccion-1" style="color:#1a56db;text-decoration:none;display:block">1. Primera sección</a>
-<a href="#seccion-2" style="color:#1a56db;text-decoration:none;display:block">2. Segunda sección</a>
-<a href="#preguntas-frecuentes" style="color:#1a56db;text-decoration:none;display:block">3. Preguntas frecuentes</a>
+<a href="#que-es-este-test" style="color:#1a56db;text-decoration:none;display:block">1. Qué es este test</a>
+<a href="#que-se-ha-probado" style="color:#1a56db;text-decoration:none;display:block">2. Qué se ha probado</a>
+<a href="#resultado" style="color:#1a56db;text-decoration:none;display:block">3. Resultado</a>
 </nav>
 
-<h2 id="seccion-1">Primera sección</h2>
+<h2 id="que-es-este-test">Qué es este test</h2>
 
-Contenido...
+Este es un **borrador de prueba** generado desde el repositorio local para validar el pipeline completo de publicación. Si ves esto en el panel de WordPress, la conexión funciona correctamente.
 
-<!-- BANNER CTA — Insertar ~a mitad del artículo entre dos H2 -->
+En este test comprobamos tres elementos nuevos: el **banner CTA** entre secciones, la **tabla de contenidos** con enlaces funcionales al principio, y el campo de **imagen de portada** en el frontmatter.
+
+<!-- BANNER CTA — Insertar entre secciones del artículo -->
 <div style="background:#1a1a2e;border-radius:10px;padding:28px 32px;margin:36px 0;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
   <div style="flex:1;min-width:220px">
     <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:rgba(255,255,255,.4);margin-bottom:6px">Urgencias 24h · Bizkaia</div>
@@ -39,25 +33,21 @@ Contenido...
   </div>
 </div>
 
-<h2 id="seccion-2">Segunda sección</h2>
+<h2 id="que-se-ha-probado">Qué se ha probado</h2>
 
-Contenido...
+El flujo completo incluye:
 
-### Subsección
+- **Frontmatter YAML** con title, slug, excerpt y featured_image
+- **Índice de contenidos** con enlaces anchor a cada H2
+- **H2 con id HTML** para que los enlaces del índice funcionen
+- **Banner CTA inline** entre secciones, sin JavaScript ni position:fixed
+- **Autenticación cookie** contra WordPress
 
-Contenido...
+<h2 id="resultado">Resultado</h2>
 
-<h2 id="preguntas-frecuentes">Preguntas frecuentes</h2>
+Si estás leyendo esto desde la web y el banner azul oscuro aparece entre las secciones, todo funciona. Este post se puede borrar una vez verificado.
 
-### ¿Pregunta uno?
-
-Respuesta...
-
-### ¿Pregunta dos?
-
-Respuesta...
-
-<!-- BANNER CTA — Repetir al final, después del cierre -->
+<!-- BANNER CTA — Se puede repetir antes del cierre -->
 <div style="background:#1a1a2e;border-radius:10px;padding:28px 32px;margin:36px 0;display:flex;align-items:center;gap:24px;flex-wrap:wrap">
   <div style="flex:1;min-width:220px">
     <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:rgba(255,255,255,.4);margin-bottom:6px">Urgencias 24h · Bizkaia</div>
